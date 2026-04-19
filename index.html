@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>Learning Log | Web Development</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is my first GitHub Pages deployment!</p>
+
+    <header>
+        <div class="container">
+            <h1>Web Dev Journey</h1>
+            <p>Web開発初級教材の学習記録</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="status-board">
+            <h2>Current Status</h2>
+            <div class="stats-flex">
+                <div class="stat-item">
+                    <span class="label">完了した演習</span>
+                    <span class="value">12</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">できるようになったこと</span>
+                    <span class="value">8 items</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>Achievement</h2>
+            <p class="description">演習を通じて習得したスキルを掲示します。</p>
+            <ul class="skill-list">
+                <li>HTMLのセマンティックなタグ付け</li>
+                <li>CSS Flexboxを用いたレイアウト構築</li>
+                <li>ターミナルからのコマンド操作（codeコマンド等）</li>
+                <li>GitHub Pagesへのデプロイ手順</li>
+            </ul>
+        </section>
+
+        <section class="log-section">
+            <h2>Learning Log</h2>
+            <article class="log-card">
+                <span class="date">2026.04.20</span>
+                <h3>ダミータイトル：演習ステップ01完了</h3>
+                <p>ここには学習した内容のメモや、苦労したポイントなどのダミーテキストが入ります。自分の言葉で振り返りを書くスペースです。</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rinka Iida. Happy Coding!</p>
+    </footer>
+
 </body>
 </html>
